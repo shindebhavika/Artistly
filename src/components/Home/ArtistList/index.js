@@ -2,7 +2,7 @@
 
 import { artists } from "@/app/api/data";
 import { useState, useRef } from "react";
-import Round from "../Round";
+import Round from "../round";
 
 export default function ArtistList() {
   const data = artists;
