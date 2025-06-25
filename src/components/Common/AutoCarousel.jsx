@@ -42,7 +42,7 @@ const AutoCarousel = () => {
                   key={idx}
                   src={src}
               
-                  
+              loading="lazy"
                    alt="main"
               width={1000}
               height={805}

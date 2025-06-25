@@ -61,6 +61,8 @@ const ForgotPassword = () => {
                     alt="logo"
                     width={140}
                     height={30}
+                      
+              loading="lazy"
                     className="dark:hidden"
                   />
                   <Image
@@ -68,6 +70,8 @@ const ForgotPassword = () => {
                     alt="logo"
                     width={140}
                     height={30}
+                      
+              loading="lazy"
                     className="hidden dark:block"
                   />
                 </Link>

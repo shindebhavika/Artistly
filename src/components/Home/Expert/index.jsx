@@ -52,9 +52,11 @@ const Expert = () => {
                         <div key={i}>
                             <div className='m-3 py-14 my-10 text-center'>
                                 <div className="relative">
-                                    <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
+                                    <Image src={items.imgSrc}   
+              loading="lazy" alt="gaby" width={362} height={262} className="inline-block m-auto" />
                                     <div className="absolute top-[50%] right-[2%]">
-                                        <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
+                                        <Image src={'/images/Expert/Linkedin.svg'}   
+              loading="lazy" alt="linkedin" width={220} height={120}  />
                                     </div>
                                 </div>
                                 <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>

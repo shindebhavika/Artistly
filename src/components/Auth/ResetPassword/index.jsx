@@ -92,6 +92,8 @@ const ResetPassword = ({ token }: { token }) => {
                     src="/images/logo/logo.svg"
                     alt="logo"
                     width={140}
+                      
+              loading="lazy"
                     height={30}
                     className="dark:hidden"
                   />
@@ -100,6 +102,8 @@ const ResetPassword = ({ token }: { token }) => {
                     alt="logo"
                     width={140}
                     height={30}
+                      
+              loading="lazy"
                     className="hidden dark:block"
                   />
                 </Link>

@@ -16,6 +16,8 @@ function  NotFound () {
                 height={0}
                 layout="responsive"
                 quality={100}
+                  
+              loading="lazy"
                 className="mx-auto max-w-full"
               />
             </div>

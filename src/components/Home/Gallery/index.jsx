@@ -28,6 +28,8 @@ const Gallery = () => {
                                     alt={item.event}
                                     width={600}
                                     height={500}
+                                      
+              loading="lazy"
                                     className="object-cover w-full h-full"
                                 />
                                 <div className="w-full h-full absolute bg-black/40 top-full group-hover:top-0 duration-500 p-12 flex flex-col items-start gap-8 justify-end">

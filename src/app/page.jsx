@@ -1,17 +1,15 @@
 import React from "react";
 import Hero from "@/components/Home/Hero";
 import Features from "@/components/Home/Features";
-// import Cook from "@/components/Home/Cook";
-// import Expert from "@/components/Home/Expert";
+
 import Gallery from "@/components/Home/Gallery";
 import Newsletter from "@/components/Home/Newsletter";
 
 import ArtistList from "@/components/Home/ArtistList";
 import ArtistFilter from "@/components/Home/ArtistFilter";
 
-import AutoCarousel from "@/components/Common/AutoCarousel";
-import { Metadata } from "next";
-// import ArtistOnboardingForm from "../components/Auth/ArtistOnboardingForm";
+
+
 
 export const metadata = {
   title: "Artistly | Book Top Artists Across India",
@@ -65,14 +63,14 @@ export default function Home() {
     <main>
     
       <Hero />
-      {/* <ArtistOnboardingForm/> */}
+   
+  
      
    <ArtistList />
 
    <ArtistFilter />
       <Features />
-      {/* <Cook /> */}
-      {/* <Expert /> */}
+  
       <Gallery />
       <Newsletter />
     </main>

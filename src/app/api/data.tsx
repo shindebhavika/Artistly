@@ -97,6 +97,8 @@ export const artists=
     "bio": "A powerhouse performer known for her energetic stage presence and hit Bollywood tracks, she regularly performs at weddings and international tours.",
     "topShow": "Live at Dubai Global Village (2022)",
       category: "Singer",
+       location: "Pune",
+    priceRange: 150000
    
   },
   {
@@ -104,56 +106,72 @@ export const artists=
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tri_Nation_Mega_Concert_Sonu_Nigam_%288388639915%29.jpg/1200px-Tri_Nation_Mega_Concert_Sonu_Nigam_%288388639915%29.jpg",
     "bio": "Veteran singer known for his versatility across genres. One of the most seasoned live performers in India and abroad.",
     "topShow": "Klose To My Soul World Tour",
-      category: "Singer"
+      category: "Singer",
+       location: "Bangalore",
+    priceRange: 2500000
   },
   {
     "name": "Shreya Ghoshal",
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Shreya_Ghoshal_at_Filmfare_Awards_South.jpg",
     "bio": "Award-winning playback singer with a golden voice. Performs live with orchestras and fusion bands globally.",
     "topShow": "Shreya Ghoshal Symphony Night in London",
-      category: "Singer"
+      category: "Singer",
+        location: "Bangalore",
+    priceRange: 250000
   },
   {
     "name": "Badshah",
     "image": "https://in.bmscdn.com/iedb/artist/images/website/poster/large/badshah-1049327-1668764170.jpg",
     "bio": "India’s top rapper and hitmaker of party anthems. Known for vibrant stage presence and live EDM sets.",
     "topShow": "Sunburn Arena – Mumbai (2022)",
-      category: "Singer"
+      category: "Singer",
+        location: "Mumbai",
+    priceRange: 2500000
   },
   {
     "name": "Diljit Dosanjh",
     "image": "https://image.tmdb.org/t/p/original/4jTu6Amtpv62HInsMCoFMR5FMfk.jpg",
     "bio": "Punjabi superstar and Bollywood singer known for blending music and comedy in his electrifying live performances.",
     "topShow": "Born To Shine Tour – Canada/USA (2022)",
-      category: "Singer"
+      category: "Singer",
+        location: "Bangalore",
+    priceRange: 300000
   },
   {
     "name": "KK (Krishnakumar Kunnath)",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuaPp8q9b9JEKwCskFDdXsWrXcTplZF6PhHQ&s",
     "bio": "Late legendary singer known for heartfelt performances. His college and festival concerts were iconic.",
     "topShow": "MTV Unplugged – KK Live Special",
-      category: "Singer"
+      category: "Singer",
+        location: "Bangalore",
+    priceRange: 2500000
   },
   {
     "name": "Sunidhi Chauhan",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNs-lMQu5PFZQjR8QxwAfECc05_4cyBrB44w&s",
     "bio": "Dynamic performer with a wide vocal range and energetic stage acts. Performs extensively at live shows and awards.",
     "topShow": "Live at IIFA Awards",
-      category: "Singer"
+      category: "Singer",
+        location: "Pune",
+    priceRange: 2500000
   },
   {
     "name": "Jubin Nautiyal",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTcOnHhxuXgm3r2o-EmSNejAuNG5GgHJ7j7Q&s",
     "bio": "Known for his soulful voice and live guitar performances, especially in intimate unplugged settings.",
     "topShow": "Jubin Nautiyal Live – Phoenix Marketcity Tour",
-      category: "Singer"
+      category: "Singer",
+        location: "Pune",
+    priceRange: 500000
   },
   {
     "name": "Honey Singh",
     "image": "https://i.pinimg.com/736x/8b/fe/8e/8bfe8e046a0f3c05f34ee9b788854783.jpg",
     "bio": "Pioneer of Indian rap and pop fusion. Brings intense energy and crowd engagement in his live gigs.",
     "topShow": "Yo Yo Honey Singh Live at IIT Fests",
-      category: "Singer"
+      category: "Singer",
+        location: "Pune",
+    priceRange: 200000
   },
 
 
@@ -162,14 +180,18 @@ export const artists=
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvHT1zdj1DSp7ZGEXisLhewy1nt4-2dMFUIg&s",
     "bio": "Ravish Kumar is an award-winning Indian journalist and former senior executive editor at NDTV India, known for his calm and credible news delivery.",
     "topShows": ["Prime Time", "Hum Log", "Ravish Ki Report"],
-       category: "Anchor"
+       category: "Anchor",
+         location: "Pune",
+    priceRange: 2500000
   },
    {
     "name": "Manish Paul",
     "image": "https://static.toiimg.com/thumb/msid-29257095,imgsize-24337,width-400,resizemode-4/29257095.jpg",
     "bio": "A leading anchor and actor, known for his charm and humor. Popular for hosting reality shows like Jhalak Dikhhla Jaa and Indian Idol.",
     "topShow": "Jhalak Dikhhla Jaa",
-      category: "Anchor"
+      category: "Anchor",
+        location: "Pune",
+    priceRange: 2500000
   },
   {
     "name": "Rithvik Dhanjani",
@@ -387,7 +409,7 @@ export const artists=
     "topShow": "Haq Se Single (Amazon Prime)",
     "category": "Comedian",
       location: "Delhi",
-    priceRange: 15000
+    priceRange: 150000
   },
  
   {

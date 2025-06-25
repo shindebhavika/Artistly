@@ -11,6 +11,8 @@ const BlogCard = ({ blog }) => {
             <Link href={`/blog/${slug}`} className="group mb-10 flex items-center gap-9">
                 <div className="overflow-hidden rounded-lg">
                     <Image 
+                      
+              loading="lazy"
                         src={coverImage}
                         alt="image"
                         width={300}

@@ -55,32 +55,7 @@ const Hero = () => {
 
          <div className="col-span-6 flex justify-center ">
                <AutoCarousel/>   
-            {/* Thumbnails */}
-            {/* <div className="flex bg-white p-2 gap-5 items-center bottom-10 rounded-xl absolute z-10 overflow-hidden ">
-              {thumbnails.map((src, idx) => (
-                <Image
-                  key={idx}
-                  src={src}
-                  alt={`thumb-${idx}`}
-                  width={68}
-                  height={68}
-                  onClick={() => setMainImage(src)}
-                  className=" animate-marquee object-center rounded-md cursor-pointer border border-transparent hover:border-purple-500 transition w-[68px] h-[68px]"
-                />
-              ))}
-              <p className="text-lg font-normal text-black">
-                More than 500+ <br /> recipes.
-              </p>
-            </div> */}
-
-            {/* Main Image */}
-            {/* <Image
-              src={mainImage}
-              alt="main"
-              width={1000}
-              height={805}
-              className="rounded-xl w-[1000px] h-[450px] object-center object-cover"
-            />*/}
+           
           </div> 
         </div>
       </div>
