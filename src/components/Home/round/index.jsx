@@ -31,7 +31,7 @@ function Round({ category = "All" }) {
       });
     }
   }, [scrollIndex]);
-
+//7
   return (
     <div className="overflow-hidden w-full">
       <div
