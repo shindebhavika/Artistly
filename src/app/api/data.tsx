@@ -180,61 +180,55 @@ export const artists=
   },
   {
     "name": "Jay Bhanushali",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Jay_Bhanushali.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_lAHoY4EnYZ-j5A4HRPXg3vbnzqwDDt6AGg&s",
     "bio": "Versatile host and actor, known for anchoring dance shows and award nights.",
     "topShow": "Dance India Dance" , 
     category: "Anchor"
   },
   {
     "name": "Karan Wahi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Karan_Wahi_at_the_launch_of_%27Kaun_Banega_Crorepati%27_2017.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRl-rTytkyn_lBTfqbRPRwN-UvE41nic48wg&s",
     "bio": "TV actor turned host with a natural sense of humor and audience connection.",
     "topShow": "Indian Idol Junior" , 
     category: "Anchor"
   },
   {
     "name": "Aditya Narayan",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Aditya_Narayan_at_the_Press_Conference_of_The_Rising_Star.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuqdDvE26euaTh_xhDwMdLd7i__rAtnBwpDg&s",
     "bio": "Singer and host, well-known for hosting multiple seasons of Indian Idol and other music shows.",
     "topShow": "Indian Idol" , 
     category: "Anchor"
   },
   {
     "name": "Bharti Singh",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bharti_Singh_Promo_Shoot.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD9rz27bvsKL2NXqyyLc5lEQ0ntSBh76uucA&s",
     "bio": "Stand-up comedian and host, known for her comic timing and stage command.",
     "topShow": "Khatra Khatra Khatra" , 
     category: "Anchor"
   },
   {
     "name": "Kapil Sharma",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Kapil_Sharma_Promoting_Kis_Kisko_Pyaar_Karoon.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS14_z9K1NC8VP7YTNtHeyRowVP3_KgNU7Sdg&s",
     "bio": "India’s most famous comedy host, known for his hugely successful TV shows.",
     "topShow": "The Kapil Sharma Show" , 
     category: "Anchor"
   },
   {
     "name": "Mini Mathur",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mini_Mathur.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNsMZq_OLjCOnxTiXopG-w8UO0aPFnf-2NTg&s",
     "bio": "Veteran anchor known for her elegance and strong screen presence. Hosted multiple seasons of Indian Idol.",
     "topShow": "Indian Idol" , 
     category: "Anchor"
   },
-  {
-    "name": "Rohit Shetty",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Rohit_Shetty_promoting_Cirkus.jpg",
-    "bio": "Famous film director who is also the host of Khatron Ke Khiladi, known for his macho screen presence.",
-    "topShow": "Khatron Ke Khiladi" , 
-    category: "Anchor",
-       location:"Delhi",
-      priceRange:30000000
-  },
+ 
   {
     "name": "Shekhar Suman",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Shekhar_Suman_2.jpg",
     "bio": "One of the earliest celebrity anchors in India, known for shows like Movers & Shakers.",
     "topShow": "Movers & Shakers" , 
-    category: "Anchor"
+    category: "Anchor",
+        location:"Delhi",
+      priceRange:30000000
   },
  
  
@@ -247,16 +241,16 @@ export const artists=
   },
   {
     "name": "DJ Chetas",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Dj_Chetas_Diwali_Bash_2015.jpg",
+    "image": "https://cdn.starclinch.in/artist/dj-chetas/dj-chetas-5.jpg?width=3840&quality=75&format=webp&flop=false",
     "bio": "India’s top Bollywood DJ famous for mashups and big-fat Indian weddings.",
     "topShow": "Bollywood Electro Night, Mumbai",
     "category": "DJ",
-       location:"Delhi",
+       location:"Pune",
       priceRange:30000000
   },
   {
     name: "Shakti Mohan",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Shakti_Mohan_gracefully_smiles.jpg/800px-Shakti_Mohan_gracefully_smiles.jpg",
+    image: "https://bookingagentinfo.com/wp-content/uploads/2022/09/Shakti-Mohan-1.png",
     bio: "Renowned contemporary dancer, winner of Dance India Dance Season 2.",
     topShow: "Nritya Shakti Live Tour, Mumbai",
     category: "Dancer",
@@ -265,25 +259,25 @@ export const artists=
   },
   {
     name: "Raghav Juyal",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Raghav_Juyal_promotes_Street_Dancer.jpg/800px-Raghav_Juyal_promotes_Street_Dancer.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnEH4O398McNeTJJLLxXZVE_wa0NIC2z18xQ&s",
     bio: "Known as 'Crockroaxz', famous for his slow-motion dance style.",
     topShow: "Street Beats Fest, Delhi",
     category: "Dancer",
     location: "Delhi",
-    priceRange: 600000
+    priceRange: 200000
   },
   {
     name: "Remo D'Souza",
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Remo_D%27Souza_gracefully_smiling.jpg",
+    image: "https://i.pinimg.com/736x/e1/35/05/e135057fae1971e5c4d63450ae66fea8.jpg",
     bio: "Choreographer and judge of many dance reality shows, known for high-energy performances.",
     topShow: "Dance Plus Finale Performance, Mumbai",
     category: "Dancer",
     location: "Mumbai",
-    priceRange: 1500000
+    priceRange: 15000
   },
   {
     name: "Punit Pathak",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Punit_Pathak_promotes_Street_Dancer.jpg/800px-Punit_Pathak_promotes_Street_Dancer.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5z0RbISpS3_SzgBCeaJ4Oa8PmVXIq_bJJQ&s",
     bio: "Versatile performer, winner of Khatron Ke Khiladi 9 and choreographer on TV.",
     topShow: "Bollywood Grooves Night, Pune",
     category: "Dancer",
@@ -297,29 +291,21 @@ export const artists=
     topShow: "Hip Hop Desi Night, Ahmedabad",
     category: "Dancer",
     location: "Ahmedabad",
-    priceRange: 900000
+    priceRange: 90000
   },
-   {
-    name: "Dr. Vivek Bindra",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vivek_Bindra.jpg/800px-Vivek_Bindra.jpg",
-    bio: "Renowned motivational speaker and business coach.",
-    topShow: "Leadership Funnel Program, Delhi",
-    category: "Speaker",
-    location: "Delhi",
-    priceRange: 2500000
-  },
+ 
   {
     name: "Sandeep Maheshwari",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sandeep_Maheshwari.jpg",
+    image: "https://img1.wsimg.com/isteam/ip/1172a89b-094a-415b-99fe-cc1e7d3cd9b0/SM%20Edited%20Pic.jpg/:/cr=t:0%25,l:14.99%25,w:50.01%25,h:100%25/rs=w:365,h:486.6666666666667,cg:true",
     bio: "Popular motivational speaker and YouTube influencer.",
     topShow: "Breakthrough Session, Mumbai",
     category: "Speaker",
     location: "Mumbai",
-    priceRange: 2000000
+    priceRange: 200000
   },
   {
     name: "Gaur Gopal Das",
-    image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Gaur_Gopal_Das.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsmXPizbJ5v7kW0YEhcZyaxBzeMS05PDyDA&s",
     bio: "Spiritual leader and lifestyle coach with a humorous speaking style.",
     topShow: "Secrets of Eternal Happiness, Bangalore",
     category: "Speaker",
@@ -328,11 +314,11 @@ export const artists=
   },
   {
     name: "Priya Kumar",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Priya_Kumar.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Priya_Kumar_%28cropped%29.jpg",
     bio: "Bestselling author and one of India's top corporate motivational speakers.",
     topShow: "Women in Leadership Summit, Hyderabad",
     category: "Speaker",
-    location: "Hyderabad",
+    location: "Mumbai",
     priceRange: 1500000
   },
   {
@@ -341,13 +327,13 @@ export const artists=
     bio: "Author and public speaker, often invited for youth and career sessions.",
     topShow: "Youth Motivation Conclave, Jaipur",
     category: "Speaker",
-    location: "Jaipur",
+    location: "Pune",
     priceRange: 2000000
   },
   
   {
     "name": "DJ Suketu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/DJ_Suketu.jpg",
+    "image": "https://i.scdn.co/image/ab6761610000e5eb55db359168c94631a6109477",
     "bio": "Legendary remix artist behind 'Bin Tere Sanam' and other iconic Bollywood club hits.",
     "topShow": "Club Appearances across India",
     "category": "DJ",
@@ -358,61 +344,70 @@ export const artists=
   
   {
     "name": "DJ Shaan",
-    "image": "https://i1.sndcdn.com/avatars-000570967658-rw4xy9-t500x500.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ezNuMQ_nf4svVh7mXtlkjRwqGe7_m6DOKQ&s",
     "bio": "Young EDM star who has performed at Tomorrowland and global stages representing India.",
     "topShow": "Tomorrowland Belgium",
-    "category": "DJ"
+    "category": "DJ",
+        location: "Delhi",
+    priceRange: 2500000
   },
   {
+    
     "name": "DJ Paroma",
-    "image": "https://i.ytimg.com/vi/ob_LQgV_6-Y/maxresdefault.jpg",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgh2halt33GpI8jvcLKbkiuAKubvokgMvPMQ&s",
     "bio": "One of India’s top female DJs, known for her Bollywood-fusion sets and celebrity events.",
     "topShow": "Lakmé Fashion Week After Party",
-    "category": "DJ"
+    "category": "DJ",
+     location: "Pune",
+    priceRange: 90000
   },
 
     {
     "name": "Anubhav Singh Bassi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Anubhav_Singh_Bassi_in_2022.jpg",
+    "image": "https://sosimg.sgp1.cdn.digitaloceanspaces.com/artist-gallery/1751841_1657357606.jpg",
     "bio": "Lawyer-turned-comedian, famous for hilarious storytelling about college and early career.",
     "topShow": "Bas Kar Bassi (Amazon Prime)",
-    "category": "Comedian"
+    "category": "Comedian",
+     location: "Mumbai",
+    priceRange: 1500000
   },
   {
     "name": "Abhishek Upmanyu",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Abhishek_Upmanyu.jpg",
+    "image": "https://sosimg.sgp1.cdn.digitaloceanspaces.com/artist-gallery/3196861_1657347386.png",
     "bio": "Known for his razor-sharp observations and fast-paced delivery.",
     "topShow": "Jealous of Sabziwala (YouTube)",
-    "category": "Comedian"
+    "category": "Comedian",
+     location: "Bangalore",
+    priceRange: 1500000
   },
   {
     "name": "Zakir Khan",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Zakir_Khan_in_2018.jpg",
+    "image": "https://i.pinimg.com/564x/1a/59/5f/1a595f7247bf1c064b79c80bb2a6c0bf.jpg",
     "bio": "Poet and storyteller, famous for his raw, heartfelt comedy and the 'Sakht Launda' persona.",
     "topShow": "Haq Se Single (Amazon Prime)",
-    "category": "Comedian"
+    "category": "Comedian",
+      location: "Delhi",
+    priceRange: 15000
   },
-  {
-    "name": "Kapil Sharma",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Kapil_Sharma_Promoting_Kis_Kisko_Pyaar_Karoon.jpg",
-    "bio": "India’s most recognized comedy face on television, known for sketch comedy and celebrity interviews.",
-    "topShow": "The Kapil Sharma Show",
-    "category": "Comedian"
-  },
+ 
   {
     "name": "Kenny Sebastian",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kenny_Sebastian_2022.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVgF2KI5xhOrf1_y8qfYkV_iOQXso8abd7Sg&s",
     "bio": "Blends music, clean comedy, and relatable Indian middle-class humor.",
     "topShow": "The Most Interesting Person in the Room (Netflix)",
-    "category": "Comedian"
+    "category": "Comedian",
+      location: "Mumbai",
+    priceRange: 200000
   },
  
   {
     "name": "Sumukhi Suresh",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sumukhi_Suresh.jpg",
+    "image": "https://sosimg.sgp1.cdn.digitaloceanspaces.com/artist-gallery/3364805_1677605690.webp",
     "bio": "Witty, expressive, and known for character-based comedy and sketch shows.",
     "topShow": "Pushpavalli (Amazon Prime)",
-    "category": "Comedian"
+    "category": "Comedian",
+      location: "Pune",
+    priceRange: 1500000
   },
   
 ]

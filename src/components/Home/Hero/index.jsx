@@ -13,6 +13,7 @@ const Hero = () => {
   const thumbnails = [
 "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2025/04/HD-wallpaper-arjith-singh-bollywood-singerITG-1745563735262.jpg?size=*:900",
     "https://blackhattalent.com/wp-content/uploads/2023/12/n6.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnEH4O398McNeTJJLLxXZVE_wa0NIC2z18xQ&s",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRx6_U1pyOqs8XUNOc2Z3cXz36ORj8NcBAPg&s",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaV5OK_S9xtyETTQAuFCcYIjKZkA4ecQUT8A&s",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZurjnkWUad-nbNug-nAhjWYjaBYUh8j7z7g&s",
