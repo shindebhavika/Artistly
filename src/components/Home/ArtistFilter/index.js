@@ -40,14 +40,20 @@ if (filters.search.trim()) {
 
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
-      <FilterBlock filters={filters} setFilters={setFilters} />
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {filtered.map((artist, idx) => (
-          <ArtistCard key={idx} artist={artist} />
-        ))}
-      </div>
+   <div className="p-6 max-w-6xl mx-auto">
+  <FilterBlock filters={filters} setFilters={setFilters} />
+
+  {filtered.length > 0 ? (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {filtered.map((artist, idx) => (
+        <ArtistCard key={idx} artist={artist} />
+      ))}
     </div>
+  ) : (
+    <p className="text-center text-gray-500 mt-10 text-lg">No match found.</p>
+  )}
+</div>
+
   );
 };
 
