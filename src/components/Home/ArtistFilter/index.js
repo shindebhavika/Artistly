@@ -51,4 +51,5 @@ if (filters.search.trim()) {
   );
 };
 
+//commit
 export default ArtistFilter;
