@@ -12,8 +12,7 @@ const Footer = () => {
           <div className="col-span-2">
             <Logo />
             <p className="text-xs font-medium text-grey dark:text-white/50 mt-5 mb-16 max-w-70%">
-              Open an account in minutes, get full financial
-              control for much longer.
+      Search from 1000 celebrity  from different genres.
             </p>
             <div className="flex gap-6 items-center">
               <Link href="#" className="group bg-white hover:bg-primary rounded-full shadow-xl p-3">
@@ -114,14 +113,7 @@ const Footer = () => {
                   Affiliates
                 </Link>
               </li>
-              <li className="pb-5">
-                <Link
-                  href="#"
-                  className="text-black/70 dark:text-white/70 hover:text-primary dark:hover:text-primary text-base"
-                >
-                  Hotel owners
-                </Link>
-              </li>
+             
               <li className="pb-5">
                 <Link
                   href="#"
@@ -150,7 +142,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-grey/15 dark:border-white/15 py-10 flex justify-between items-center">
           <p className="text-sm text-black/70 dark:text-white/70">
-            @2025 - Chef's kitchen. Distributed By <Link href="https://themewagon.com/" target="_blank" className="hover:text-primary">ThemeWagon</Link> and Developed by <Link href="https://getnextjstemplates.com/" className="hover:text-primary">GetNextjsTemplates</Link>
+            @2025 - artistly.com Developed by Bhavika
           </p>
 
           <div className="">

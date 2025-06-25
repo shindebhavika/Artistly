@@ -96,7 +96,8 @@ export const artists=
     "image": "https://umjb.in/admin/uploads/gyankosh/39b8a6200bcec27e1cf35984c51fad7b.jpg",
     "bio": "A powerhouse performer known for her energetic stage presence and hit Bollywood tracks, she regularly performs at weddings and international tours.",
     "topShow": "Live at Dubai Global Village (2022)",
-      category: "Singer"
+      category: "Singer",
+   
   },
   {
     "name": "Sonu Nigam",
@@ -224,7 +225,9 @@ export const artists=
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Rohit_Shetty_promoting_Cirkus.jpg",
     "bio": "Famous film director who is also the host of Khatron Ke Khiladi, known for his macho screen presence.",
     "topShow": "Khatron Ke Khiladi" , 
-    category: "Anchor"
+    category: "Anchor",
+       location:"Delhi",
+      priceRange:30000000
   },
   {
     "name": "Shekhar Suman",
@@ -247,29 +250,112 @@ export const artists=
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Dj_Chetas_Diwali_Bash_2015.jpg",
     "bio": "India’s top Bollywood DJ famous for mashups and big-fat Indian weddings.",
     "topShow": "Bollywood Electro Night, Mumbai",
-    "category": "DJ"
+    "category": "DJ",
+       location:"Delhi",
+      priceRange:30000000
   },
+  {
+    name: "Shakti Mohan",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Shakti_Mohan_gracefully_smiles.jpg/800px-Shakti_Mohan_gracefully_smiles.jpg",
+    bio: "Renowned contemporary dancer, winner of Dance India Dance Season 2.",
+    topShow: "Nritya Shakti Live Tour, Mumbai",
+    category: "Dancer",
+    location: "Mumbai",
+    priceRange: 800000
+  },
+  {
+    name: "Raghav Juyal",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Raghav_Juyal_promotes_Street_Dancer.jpg/800px-Raghav_Juyal_promotes_Street_Dancer.jpg",
+    bio: "Known as 'Crockroaxz', famous for his slow-motion dance style.",
+    topShow: "Street Beats Fest, Delhi",
+    category: "Dancer",
+    location: "Delhi",
+    priceRange: 600000
+  },
+  {
+    name: "Remo D'Souza",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Remo_D%27Souza_gracefully_smiling.jpg",
+    bio: "Choreographer and judge of many dance reality shows, known for high-energy performances.",
+    topShow: "Dance Plus Finale Performance, Mumbai",
+    category: "Dancer",
+    location: "Mumbai",
+    priceRange: 1500000
+  },
+  {
+    name: "Punit Pathak",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Punit_Pathak_promotes_Street_Dancer.jpg/800px-Punit_Pathak_promotes_Street_Dancer.jpg",
+    bio: "Versatile performer, winner of Khatron Ke Khiladi 9 and choreographer on TV.",
+    topShow: "Bollywood Grooves Night, Pune",
+    category: "Dancer",
+    location: "Pune",
+    priceRange: 700000
+  },
+  {
+    name: "Dharmesh Yelande",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Dharmesh_Yelande_Grinning.jpg",
+    bio: "Dancer and choreographer, known for hip-hop and popping style.",
+    topShow: "Hip Hop Desi Night, Ahmedabad",
+    category: "Dancer",
+    location: "Ahmedabad",
+    priceRange: 900000
+  },
+   {
+    name: "Dr. Vivek Bindra",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vivek_Bindra.jpg/800px-Vivek_Bindra.jpg",
+    bio: "Renowned motivational speaker and business coach.",
+    topShow: "Leadership Funnel Program, Delhi",
+    category: "Speaker",
+    location: "Delhi",
+    priceRange: 2500000
+  },
+  {
+    name: "Sandeep Maheshwari",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sandeep_Maheshwari.jpg",
+    bio: "Popular motivational speaker and YouTube influencer.",
+    topShow: "Breakthrough Session, Mumbai",
+    category: "Speaker",
+    location: "Mumbai",
+    priceRange: 2000000
+  },
+  {
+    name: "Gaur Gopal Das",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Gaur_Gopal_Das.jpg",
+    bio: "Spiritual leader and lifestyle coach with a humorous speaking style.",
+    topShow: "Secrets of Eternal Happiness, Bangalore",
+    category: "Speaker",
+    location: "Bangalore",
+    priceRange: 3000000
+  },
+  {
+    name: "Priya Kumar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Priya_Kumar.jpg",
+    bio: "Bestselling author and one of India's top corporate motivational speakers.",
+    topShow: "Women in Leadership Summit, Hyderabad",
+    category: "Speaker",
+    location: "Hyderabad",
+    priceRange: 1500000
+  },
+  {
+    name: "Chetan Bhagat",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Chetan_Bhagat.jpg",
+    bio: "Author and public speaker, often invited for youth and career sessions.",
+    topShow: "Youth Motivation Conclave, Jaipur",
+    category: "Speaker",
+    location: "Jaipur",
+    priceRange: 2000000
+  },
+  
   {
     "name": "DJ Suketu",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/DJ_Suketu.jpg",
     "bio": "Legendary remix artist behind 'Bin Tere Sanam' and other iconic Bollywood club hits.",
     "topShow": "Club Appearances across India",
-    "category": "DJ"
+    "category": "DJ",
+       location:"Delhi",
+      priceRange:50000
   },
-  {
-    "name": "DJ NYK",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf5d5c667417db27db7d7a8c3",
-    "bio": "One of India’s leading EDM & Bollywood DJs, known for NYK Shuffle podcast and VJ sets.",
-    "topShow": "NYK Shuffle Live Tour",
-    "category": "DJ"
-  },
-  {
-    "name": "DJ Akbar Sami",
-    "image": "https://djmagindia.in/wp-content/uploads/2021/11/akbar-sami-1-1024x683.jpg",
-    "bio": "One of India’s earliest celebrity DJs and remix pioneers, with decades of stage presence.",
-    "topShow": "90s Bollywood Remix Night",
-    "category": "DJ"
-  },
+  
+  
   {
     "name": "DJ Shaan",
     "image": "https://i1.sndcdn.com/avatars-000570967658-rw4xy9-t500x500.jpg",
@@ -284,27 +370,7 @@ export const artists=
     "topShow": "Lakmé Fashion Week After Party",
     "category": "DJ"
   },
-  {
-    "name": "DJ Kiran Kamath",
-    "image": "https://i.ytimg.com/vi/Yx03IXK0gJc/maxresdefault.jpg",
-    "bio": "Famous for Bollywood mashups and remix collaborations with top singers.",
-    "topShow": "Filmfare Awards Afterparty",
-    "category": "DJ"
-  },
-  {
-    "name": "DJ Lemon",
-    "image": "https://i.scdn.co/image/ab6761610000e5ebf5eb12f0e5cf8e5a8d15cd4d",
-    "bio": "Known for high-energy club gigs and Bollywood EDM remixes.",
-    "topShow": "Club Pacha India Residency",
-    "category": "DJ"
-  },
-  {
-    "name": "DJ Barkha",
-    "image": "https://i.ytimg.com/vi/zKDZiMQ3EjA/maxresdefault.jpg",
-    "bio": "A rising female DJ and model bringing glam and groove to Bollywood sets.",
-    "topShow": "Sunburn Pre-Party – Delhi",
-    "category": "DJ"
-  },
+
     {
     "name": "Anubhav Singh Bassi",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Anubhav_Singh_Bassi_in_2022.jpg",
@@ -340,27 +406,7 @@ export const artists=
     "topShow": "The Most Interesting Person in the Room (Netflix)",
     "category": "Comedian"
   },
-  {
-    "name": "Rahul Dua",
-    "image": "https://i.ytimg.com/vi/VUv2gxI4U3E/maxresdefault.jpg",
-    "bio": "Combines sarcasm and storytelling with natural comic timing.",
-    "topShow": "Comicstaan Finalist | Live Tours",
-    "category": "Comedian"
-  },
-  {
-    "name": "Neeti Palta",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Neeti_Palta.jpg",
-    "bio": "One of India’s most successful female stand-up comics, known for satire and social humor.",
-    "topShow": "Almost Sanskari (Amazon Prime)",
-    "category": "Comedian"
-  },
-  {
-    "name": "Aditi Mittal",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Aditi_Mittal.jpg",
-    "bio": "Trailblazer in the Indian comedy scene. Bold, unapologetic, and feminist-focused humor.",
-    "topShow": "Things They Wouldn’t Let Me Say (Netflix)",
-    "category": "Comedian"
-  },
+ 
   {
     "name": "Sumukhi Suresh",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sumukhi_Suresh.jpg",
@@ -368,12 +414,6 @@ export const artists=
     "topShow": "Pushpavalli (Amazon Prime)",
     "category": "Comedian"
   },
-  {
-    "name": "Samay Raina",
-    "image": "https://i.ytimg.com/vi/y9LCdN1vN1g/maxresdefault.jpg",
-    "bio": "Chess nerd turned Comicstaan winner, known for stand-up, roasts, and Twitch streams.",
-    "topShow": "Comicstaan Winner Season 2",
-    "category": "Comedian"
-  }
+  
 ]
 

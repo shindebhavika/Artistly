@@ -10,7 +10,8 @@ const ArtistFilter = () => {
   const [filters, setFilters] = useState({
     category: "",
     location: "",
-    priceRange: ""
+    priceRange: "",
+    search:""
   });
 
 useEffect(() => {
@@ -21,6 +22,11 @@ useEffect(() => {
 
   if (filters.location)
     result = result.filter((a) => a.location === filters.location);
+if (filters.search.trim()) {
+  result = result.filter((a) =>
+    a.name.toLowerCase().includes(filters.search.toLowerCase())
+  );
+}
 
   if (filters.priceRange) {
     const [min, max] = filters.priceRange.split("-").map(Number);

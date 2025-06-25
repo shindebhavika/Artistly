@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import { Icon } from "@iconify/react";
+import Logo from "@/components/Layout/Header/Logo";
 
 const Newsletter = () => {
     return (
@@ -32,14 +33,17 @@ const Newsletter = () => {
                         </div>
                     </div>
                     <div className="col-span-5 relative hidden md:block">
-                        <div>
-                            <Image src={'/images/Newsletter/soup.svg'} alt="soup-image" width={626} height={602} className='-mt-24' />
-                        </div>
-                        <div className="absolute top-[78%]">
-                            <Image src={'/images/Newsletter/onion.svg'} alt="onion-image" width={300} height={122} />
+                        
+                        <div className="absolute top-[38%]">
+                                            <Logo/>
+                       Your gateway to celebrity enchantment.
+
+India's Largest Marketplace for Professional Artists- StarClinch
+
+
                         </div>
                         <div className="absolute top-[30%] right-[-23%] hidden lg:block">
-                            <Image src={'/images/Newsletter/lec.svg'} alt="lettuce-image" width={300} height={122} />
+                            {/* <Image src={'/images/Newsletter/lec.svg'} alt="lettuce-image" width={300} height={122} /> */}
                         </div>
                         <div className="absolute bottom-[10%] left-[0%]">
                             <Image src={'/images/Newsletter/yellow.svg'} alt="yellow-image" width={59} height={59} />

@@ -1,73 +1,53 @@
 "use client";
 import React from "react";
 
-const artist = {
-  name: "Arijit Singh",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyF_NMNkcvh05-h8D8t4x0gTyvK_w3ASH3g&s",
-  category: "Singer",
-  city: "Mumbai",
-  budget: "₹30,00,000",
-  bio: "Arijit Singh is one of India's most celebrated playback singers, known for his soulful voice and emotional range.",
-  latestShows: [
-    {
-      title: "Live at Jio World Drive",
-      date: "May 2025",
-      city: "Mumbai",
-    },
-    {
-      title: "Bollywood Beats Night",
-      date: "March 2025",
-      city: "Delhi",
-    },
-    {
-      title: "Music Under the Stars",
-      date: "January 2025",
-      city: "Bangalore",
-    },
-  ],
-};
+export default function ArtistDetail({artist}) {
+console.log(artist)
 
-const ArtistDetail = () => {
   return (
-    <div className="max-w-5xl mx-auto p-6">
-      {/* Artist Overview */}
-      <div className="flex flex-col md:flex-row gap-8 bg-white shadow-md p-6 rounded-lg">
+    <div className="min-h-screen bg-[#0d0d17] text-white px-4 py-10 flex flex-col gap-10 items-center justify-center">
+      {/* Profile Section */}
+      <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-10 bg-[#11111a] rounded-2xl p-6 md:p-10 shadow-lg">
         <img
-          src={artist.image}
-          alt={artist.name}
-          className="w-full md:w-64 h-64 object-cover rounded-lg"
+          src={artist?.image}
+          alt={artist?.name}
+          className="w-full md:w-[400px] h-auto rounded-xl object-cover"
         />
-        <div>
-          <h1 className="text-3xl font-bold text-purple-700">{artist.name}</h1>
-          <p className="mt-2 text-gray-700">{artist.bio}</p>
-          <div className="mt-4 space-y-2">
-            <p><span className="font-semibold">Category:</span> {artist.category}</p>
-            <p><span className="font-semibold">City:</span> {artist.city}</p>
-            <p><span className="font-semibold">Budget:</span> {artist.budget}</p>
+        <div className="text-center md:text-left space-y-4 flex-1">
+          <h1 className="text-4xl font-extrabold text-white">{artist?.name}</h1>
+          <p className="text-lg text-gray-300">{artist?.bio}</p>
+          <div className="text-sm text-gray-400 space-y-1 pt-2">
+            <p><span className="text-gray-300 font-medium">Category:</span> {artist?.category}</p>
+            <p><span className="text-gray-300 font-medium">City:</span> {artist?.location}</p>
+            <p><span className="text-gray-300 font-medium">Budget:</span> {artist?.priceRange}</p>
           </div>
+          <button
+            onClick={() => alert("Booking Coming Soon!")}
+            className="mt-4 px-6 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-lg font-semibold hover:opacity-90"
+          >
+            SEE PRICE & BOOK
+          </button>
         </div>
       </div>
 
       {/* Latest Shows */}
-      <div className="mt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Latest Shows</h2>
-        <ul className="space-y-4">
+      {/* <div className="max-w-6xl w-full">
+        <h2 className="text-2xl font-bold text-white mb-4">📅 Latest Shows</h2>
+        <div className="space-y-4">
           {artist.latestShows.map((show, index) => (
-            <li
+            <div
               key={index}
-              className="bg-gray-100 p-4 rounded-lg shadow flex flex-col md:flex-row justify-between items-start md:items-center"
+              className="bg-[#1a1a2e] p-4 rounded-xl shadow flex flex-col md:flex-row justify-between items-start md:items-center"
             >
               <div>
-                <p className="text-lg font-semibold text-purple-700">{show.title}</p>
-                <p className="text-sm text-gray-600">City: {show.city}</p>
+                <p className="text-lg font-semibold text-purple-400">{show.title}</p>
+                <p className="text-sm text-gray-400">City: {show.city}</p>
               </div>
               <p className="text-sm text-gray-500 mt-2 md:mt-0">Date: {show.date}</p>
-            </li>
+            </div>
           ))}
-        </ul>
-      </div>
+        </div>
+      </div> */}
     </div>
   );
-};
-
-export default ArtistDetail;
+}

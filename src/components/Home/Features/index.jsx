@@ -16,7 +16,7 @@ const Features = () => {
                     {FeaturesData.map((items, i) => (
                         <div className='p-8 relative rounded-3xl bg-gradient-to-b from-black/5 to-white dark:from-white/5 dark:to-black' key={i}>
                             <div className='work-img-bg rounded-full flex justify-center absolute -top-[50%] sm:top-[-40%] md:top-[-55%] lg:top-[-45%] left-[0%]'>
-                                <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10} />
+                                {/* <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10} /> */}
                             </div>
                             <h3 className='text-2xl text-black dark:text-white font-semibold text-center mt-16'>{items.heading}</h3>
                             <p className='text-lg font-normal text-black/50 dark:text-white/50 text-center mt-2'>{items.subheading}</p>

@@ -1,25 +1,63 @@
 import React from "react";
 import Hero from "@/components/Home/Hero";
 import Features from "@/components/Home/Features";
-import Cook from "@/components/Home/Cook";
-import Expert from "@/components/Home/Expert";
+// import Cook from "@/components/Home/Cook";
+// import Expert from "@/components/Home/Expert";
 import Gallery from "@/components/Home/Gallery";
 import Newsletter from "@/components/Home/Newsletter";
-import Round from "@/components/Home/Round";
+
 import ArtistList from "@/components/Home/ArtistList";
 import ArtistFilter from "@/components/Home/ArtistFilter";
-// import ArtistDetail from "@/components/Common/ArtistDetail";
+
 import AutoCarousel from "@/components/Common/AutoCarousel";
 import { Metadata } from "next";
 // import ArtistOnboardingForm from "../components/Auth/ArtistOnboardingForm";
 
 export const metadata = {
-  title: "Artistly",
-  description: "Discover and book top artists across genres with Artistly – your ultimate artist management and booking platform.",
+  title: "Artistly | Book Top Artists Across India",
+  description:
+    "Discover and book top artists across genres with Artistly – your ultimate artist management and booking platform.",
+  keywords: [
+    "Artist booking",
+    "Artistly",
+    "Live performances",
+    "Book DJ",
+    "Hire singer",
+    "Comedians India",
+    "Event artists",
+    "Artist manager",
+  ],
   icons: {
-    icon: "/star.png", // ✅ Remove '/public' since 'public' is the root
+    icon: "/star.png", // ensure star.png is in the /public folder
   },
+  openGraph: {
+    title: "Artistly | Book Top Artists Across India",
+    description:
+      "Discover singers, DJs, comedians, and more for your next big event. Artistly connects you with the best performers.",
+    url: "https://yourdomain.com", // ✅ Replace with your actual URL
+    siteName: "Artistly",
+    images: [
+      {
+        url: "/og-image.png", // place an image in /public
+        width: 1200,
+        height: 630,
+        alt: "Artistly - Book Top Artists",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Artistly | Book Top Artists",
+    description:
+      "India’s top platform to discover and book artists for live shows, events, and celebrations.",
+    images: ["/og-image.png"], // same image as above
+    creator: "@artistlyofficial", // optional
+  },
+  metadataBase: new URL("https://yourdomain.com"), // replace with your actual domain
 };
+
 
 
 export default function Home() {
@@ -28,13 +66,13 @@ export default function Home() {
     
       <Hero />
       {/* <ArtistOnboardingForm/> */}
-      {/* <ArtistDetail/> */}
+     
    <ArtistList />
-<Round/>
+
    <ArtistFilter />
       <Features />
       {/* <Cook /> */}
-      <Expert />
+      {/* <Expert /> */}
       <Gallery />
       <Newsletter />
     </main>
